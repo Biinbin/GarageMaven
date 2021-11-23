@@ -95,7 +95,7 @@ public class Voiture {
         for (Garage g : garagesVisites()) {
             out.println(g.toString());
 
-            for (int i = 0; i < myStationnements.size(); i++) {
+            for (int i = 0 ; i < myStationnements.size(); i++) {
                 if (g == myStationnements.get(i).getGarage()) {
                     out.println(myStationnements.get(i).toString());
                 }
